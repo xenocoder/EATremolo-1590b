@@ -1742,7 +1742,7 @@ RV09AF-40-20K-[A|B|C]{value}K</description>
 <part name="R4" library="mb_resistors" deviceset="6MM" device=".3" value="10k"/>
 <part name="R5" library="mb_resistors" deviceset="6MM" device=".3" value="560K"/>
 <part name="R6" library="mb_resistors" deviceset="6MM" device=".3" value="4k7"/>
-<part name="R7" library="mb_resistors" deviceset="6MM" device=".3" value="180R"/>
+<part name="R7" library="mb_resistors" deviceset="6MM" device=".3" value="180"/>
 <part name="R8" library="mb_resistors" deviceset="6MM" device=".3" value="150k"/>
 <part name="R9" library="mb_resistors" deviceset="6MM" device=".3" value="1k2"/>
 <part name="R10" library="mb_resistors" deviceset="6MM" device=".3" value="120k"/>
@@ -1856,18 +1856,6 @@ RV09AF-40-20K-[A|B|C]{value}K</description>
 <pinref part="R3" gate="G$1" pin="1"/>
 <pinref part="GND7" gate="GND" pin="GND"/>
 <wire x1="12.7" y1="38.1" x2="12.7" y2="33.02" width="0.1524" layer="91"/>
-<pinref part="U$1" gate="G$1" pin="G"/>
-<wire x1="125.476" y1="66.04" x2="119.38" y2="66.04" width="0.1524" layer="91"/>
-<wire x1="119.38" y1="66.04" x2="119.38" y2="55.88" width="0.1524" layer="91"/>
-<wire x1="119.38" y1="55.88" x2="139.7" y2="55.88" width="0.1524" layer="91"/>
-<wire x1="139.7" y1="55.88" x2="139.7" y2="2.54" width="0.1524" layer="91"/>
-<pinref part="R2" gate="G$1" pin="1"/>
-<wire x1="5.08" y1="38.1" x2="5.08" y2="33.02" width="0.1524" layer="91"/>
-<wire x1="139.7" y1="2.54" x2="5.08" y2="2.54" width="0.1524" layer="91"/>
-<wire x1="5.08" y1="2.54" x2="5.08" y2="33.02" width="0.1524" layer="91"/>
-<wire x1="12.7" y1="33.02" x2="5.08" y2="33.02" width="0.1524" layer="91"/>
-<junction x="12.7" y="33.02"/>
-<junction x="5.08" y="33.02"/>
 </segment>
 <segment>
 <pinref part="R4" gate="G$1" pin="1"/>
@@ -2115,6 +2103,19 @@ RV09AF-40-20K-[A|B|C]{value}K</description>
 <wire x1="116.84" y1="68.58" x2="116.84" y2="81.28" width="0.1524" layer="91"/>
 <wire x1="116.84" y1="81.28" x2="0" y2="81.28" width="0.1524" layer="91"/>
 <wire x1="0" y1="81.28" x2="0" y2="76.2" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$21" class="0">
+<segment>
+<pinref part="U$1" gate="G$1" pin="G"/>
+<wire x1="125.476" y1="66.04" x2="119.38" y2="66.04" width="0.1524" layer="91"/>
+<wire x1="119.38" y1="66.04" x2="119.38" y2="55.88" width="0.1524" layer="91"/>
+<wire x1="119.38" y1="55.88" x2="139.7" y2="55.88" width="0.1524" layer="91"/>
+<wire x1="139.7" y1="55.88" x2="139.7" y2="2.54" width="0.1524" layer="91"/>
+<pinref part="R2" gate="G$1" pin="1"/>
+<wire x1="5.08" y1="38.1" x2="5.08" y2="33.02" width="0.1524" layer="91"/>
+<wire x1="139.7" y1="2.54" x2="5.08" y2="2.54" width="0.1524" layer="91"/>
+<wire x1="5.08" y1="2.54" x2="5.08" y2="33.02" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$23" class="0">

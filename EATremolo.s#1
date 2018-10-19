@@ -1742,7 +1742,7 @@ RV09AF-40-20K-[A|B|C]{value}K</description>
 <part name="R4" library="mb_resistors" deviceset="6MM" device=".3" value="10k"/>
 <part name="R5" library="mb_resistors" deviceset="6MM" device=".3" value="560K"/>
 <part name="R6" library="mb_resistors" deviceset="6MM" device=".3" value="4k7"/>
-<part name="R7" library="mb_resistors" deviceset="6MM" device=".3" value="180R"/>
+<part name="R7" library="mb_resistors" deviceset="6MM" device=".3" value="180"/>
 <part name="R8" library="mb_resistors" deviceset="6MM" device=".3" value="150k"/>
 <part name="R9" library="mb_resistors" deviceset="6MM" device=".3" value="1k2"/>
 <part name="R10" library="mb_resistors" deviceset="6MM" device=".3" value="120k"/>

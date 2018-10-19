@@ -1,0 +1,37 @@
+Partlist exported from /Users/evanhowell/git/EATremolo-1590b/EATremolo.sch at 10/18/18 6:23 PM
+
+Part  Value     Device    Package   Description     
+C1    0.047uF   072X0252  072X025   1000pF - 0.47uF 
+C2    10uF      0501      050_020_1 0.22 - 100uF    
+C3    0.22uF    072X0352  072X035   0.15 - 1.0uF;   
+C4    0.47uF    072X0352  072X035   0.15 - 1.0uF;   
+C5    22uF      0501      050_020_1 0.22 - 100uF    
+C6    0.47uF    072X0352  072X035   0.15 - 1.0uF;   
+C7    1uF       072X0352  072X035   0.15 - 1.0uF;   
+C8    1uF       072X0352  072X035   0.15 - 1.0uF;   
+C9    1uF       072X0352  072X035   0.15 - 1.0uF;   
+D1    LED3MM    LED3MM    LED3MM                    
+DEPTH B250K     POT16MM   16MM      Potentiometers  
+Q1    2N5457    2N5457    TO92-     N-CHANNEL JFET  
+Q2    2N3904    2N3904    TO92-     NPN Transistor  
+Q3    2N5457    2N5457    TO92-     N-CHANNEL JFET  
+Q4    2N5088    2N5088    TO92-     NPN Transistor  
+R1    1M        6MM.3     R0207/3   6mm Resistors   
+R2    1M        6MM.3     R0207/3   6mm Resistors   
+R3    1M        6MM.3     R0207/3   6mm Resistors   
+R4    10k       6MM.3     R0207/3   6mm Resistors   
+R5    560K      6MM.3     R0207/3   6mm Resistors   
+R6    4k7       6MM.3     R0207/3   6mm Resistors   
+R7    180R      6MM.3     R0207/3   6mm Resistors   
+R8    150k      6MM.3     R0207/3   6mm Resistors   
+R9    1k2       6MM.3     R0207/3   6mm Resistors   
+R10   120k      6MM.3     R0207/3   6mm Resistors   
+R11   68k       6MM.3     R0207/3   6mm Resistors   
+R12   15k       6MM.3     R0207/3   6mm Resistors   
+R13   2M2       6MM.3     R0207/3   6mm Resistors   
+R14   15k       6MM.3     R0207/3   6mm Resistors   
+R15   1k        6MM.3     R0207/3   6mm Resistors   
+R16   4k7       6MM.3     R0207/3   6mm Resistors   
+SPEED C100K     POT16MM   16MM      Potentiometers  
+U$1   BOARDLINK BOARDLINK BOARDLINK                 
+VOL   A25K      POT16MM   16MM      Potentiometers  
