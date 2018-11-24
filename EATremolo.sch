@@ -2126,10 +2126,12 @@ RV09AF-40-20K-[A|B|C]{value}K</description>
 <pinref part="Q3" gate="G$1" pin="S"/>
 <pinref part="GND3" gate="GND" pin="GND"/>
 <wire x1="66.04" y1="27.94" x2="66.04" y2="22.86" width="0.1524" layer="91"/>
-<pinref part="U$3" gate="G$1" pin="D"/>
-<wire x1="73.66" y1="35.56" x2="73.66" y2="27.94" width="0.1524" layer="91"/>
-<wire x1="73.66" y1="27.94" x2="66.04" y2="27.94" width="0.1524" layer="91"/>
+<wire x1="66.04" y1="27.94" x2="72.136" y2="27.94" width="0.1524" layer="91"/>
+<wire x1="72.136" y1="27.94" x2="72.136" y2="27.686" width="0.1524" layer="91"/>
 <junction x="66.04" y="27.94"/>
+<wire x1="72.136" y1="27.94" x2="72.136" y2="45.72" width="0.1524" layer="91"/>
+<pinref part="U$3" gate="G$1" pin="S"/>
+<wire x1="72.136" y1="45.72" x2="73.66" y2="45.72" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="GND2" gate="GND" pin="GND"/>
@@ -2209,10 +2211,10 @@ RV09AF-40-20K-[A|B|C]{value}K</description>
 <pinref part="C5" gate="1" pin="-"/>
 <pinref part="Q3" gate="G$1" pin="D"/>
 <wire x1="60.96" y1="38.1" x2="66.04" y2="38.1" width="0.1524" layer="91"/>
-<pinref part="U$3" gate="G$1" pin="S"/>
-<wire x1="73.66" y1="45.72" x2="68.58" y2="45.72" width="0.1524" layer="91"/>
-<wire x1="68.58" y1="45.72" x2="68.58" y2="38.1" width="0.1524" layer="91"/>
-<wire x1="68.58" y1="38.1" x2="66.04" y2="38.1" width="0.1524" layer="91"/>
+<pinref part="U$3" gate="G$1" pin="D"/>
+<wire x1="73.66" y1="35.56" x2="71.12" y2="35.56" width="0.1524" layer="91"/>
+<wire x1="71.12" y1="35.56" x2="71.12" y2="38.1" width="0.1524" layer="91"/>
+<wire x1="71.12" y1="38.1" x2="66.04" y2="38.1" width="0.1524" layer="91"/>
 <junction x="66.04" y="38.1"/>
 </segment>
 </net>
