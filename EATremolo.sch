@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.2.2">
+<eagle version="9.5.2">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -1851,7 +1851,7 @@ RV09AF-40-20K-[A|B|C]{value}K</description>
 <part name="R13" library="mb_resistors" deviceset="6MM" device=".3" value="2M2"/>
 <part name="R14" library="mb_resistors" deviceset="6MM" device=".3" value="15k"/>
 <part name="R15" library="mb_resistors" deviceset="6MM" device=".3" value="1k"/>
-<part name="C1" library="mb_caps-box" deviceset="072X025" device="2" value="0.047uF"/>
+<part name="C1" library="mb_caps-box" deviceset="072X025" device="2" value="47nF"/>
 <part name="C2" library="mb_caps-electro" deviceset="050" device="1" value="10uF"/>
 <part name="C3" library="mb_caps-box" deviceset="072X035" device="2" value="0.22uF"/>
 <part name="C4" library="mb_caps-box" deviceset="072X035" device="2" value="0.47uF"/>

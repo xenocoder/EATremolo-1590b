@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.2.2">
+<eagle version="9.5.2">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -76,8 +76,8 @@
 </layers>
 <board>
 <plain>
-<text x="4.445" y="6.35" size="1.016" layer="25" font="vector">Xenocoder Shaky Toes</text>
-<text x="28.702" y="6.477" size="1.016" layer="25" font="vector">11.2018 1.2</text>
+<text x="4.445" y="6.35" size="1.016" layer="25" font="vector">Xenocoder Tremolo Thing</text>
+<text x="28.702" y="6.477" size="1.016" layer="25" font="vector">2020.04 v1.0</text>
 <wire x1="0" y1="5.08" x2="18.415" y2="5.08" width="0.1524" layer="20"/>
 <wire x1="18.415" y1="5.08" x2="18.415" y2="0" width="0.1524" layer="20"/>
 <wire x1="18.415" y1="0" x2="35.56" y2="0" width="0.1524" layer="20"/>
@@ -585,8 +585,8 @@ Please make sure your boards conform to these design rules.</description>
 <element name="R15" library="mb_resistors" package="R0207/3" value="1k" x="15.4178" y="33.655" smashed="yes" rot="R180">
 <attribute name="VALUE" x="16.5862" y="34.2646" size="1.27" layer="25" font="vector" ratio="12" rot="R180"/>
 </element>
-<element name="C1" library="mb_caps-box" package="072X025" value="0.047uF" x="18.3388" y="13.081" smashed="yes" rot="R90">
-<attribute name="VALUE" x="17.2306" y="11.234" size="0.8128" layer="25" ratio="12" rot="R90"/>
+<element name="C1" library="mb_caps-box" package="072X025" value="47nF" x="18.3388" y="13.081" smashed="yes" rot="R90">
+<attribute name="VALUE" x="18.2466" y="11.615" size="1.016" layer="25" ratio="12" rot="R90"/>
 </element>
 <element name="C2" library="mb_caps-electro" package="050_020_1" value="10uF" x="36.0426" y="17.2466" smashed="yes" rot="R90">
 <attribute name="VALUE" x="38.1254" y="16.129" size="0.8128" layer="25" ratio="12" rot="R90"/>
@@ -617,7 +617,6 @@ Please make sure your boards conform to these design rules.</description>
 </element>
 <element name="Q1" library="mb_trans" package="TO92-" value="2N5457" x="20.6248" y="20.5486" smashed="yes" rot="R90">
 <attribute name="NAME" x="19.431" y="19.8628" size="0.8128" layer="25" ratio="12" rot="R90"/>
-<attribute name="VALUE" x="23.4442" y="18.415" size="0.8128" layer="25" ratio="12" rot="R90"/>
 </element>
 <element name="Q2" library="mb_trans" package="TO92-" value="2N3904" x="33.528" y="23.241" smashed="yes" rot="R270">
 <attribute name="NAME" x="34.6202" y="24.0284" size="0.8128" layer="25" ratio="12" rot="R270"/>
@@ -637,8 +636,8 @@ Please make sure your boards conform to these design rules.</description>
 <attribute name="VALUE" x="29.337" y="15.7734" size="0.8128" layer="25" ratio="12" rot="R180"/>
 </element>
 <element name="SPEED" library="mb_pots" package="16MM" value="C100K" x="24.765" y="23.495" smashed="yes" rot="R90">
-<attribute name="NAME" x="22.7076" y="24.7396" size="0.8128" layer="21" ratio="12" rot="R90"/>
-<attribute name="VALUE" x="22.733" y="20.4978" size="0.8128" layer="25" ratio="12" rot="R90"/>
+<attribute name="NAME" x="22.7076" y="27.1526" size="0.8128" layer="21" ratio="12" rot="R90"/>
+<attribute name="VALUE" x="22.733" y="23.2918" size="0.8128" layer="25" ratio="12" rot="R90"/>
 </element>
 <element name="DEPTH" library="mb_pots" package="16MM" value="B250K" x="29.21" y="23.495" smashed="yes" rot="R270">
 <attribute name="NAME" x="31.1658" y="21.2852" size="0.8128" layer="21" ratio="12" rot="R270"/>

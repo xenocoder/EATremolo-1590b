@@ -1,37 +1,46 @@
-Partlist exported from /Users/evanhowell/git/EATremolo-1590b/EATremolo.sch at 10/18/18 6:23 PM
+Partlist
 
-Part  Value     Device    Package   Description     
-C1    0.047uF   072X0252  072X025   1000pF - 0.47uF 
-C2    10uF      0501      050_020_1 0.22 - 100uF    
-C3    0.22uF    072X0352  072X035   0.15 - 1.0uF;   
-C4    0.47uF    072X0352  072X035   0.15 - 1.0uF;   
-C5    22uF      0501      050_020_1 0.22 - 100uF    
-C6    0.47uF    072X0352  072X035   0.15 - 1.0uF;   
-C7    1uF       072X0352  072X035   0.15 - 1.0uF;   
-C8    1uF       072X0352  072X035   0.15 - 1.0uF;   
-C9    1uF       072X0352  072X035   0.15 - 1.0uF;   
-D1    LED3MM    LED3MM    LED3MM                    
-DEPTH B250K     POT16MM   16MM      Potentiometers  
-Q1    2N5457    2N5457    TO92-     N-CHANNEL JFET  
-Q2    2N3904    2N3904    TO92-     NPN Transistor  
-Q3    2N5457    2N5457    TO92-     N-CHANNEL JFET  
-Q4    2N5088    2N5088    TO92-     NPN Transistor  
-R1    1M        6MM.3     R0207/3   6mm Resistors   
-R2    1M        6MM.3     R0207/3   6mm Resistors   
-R3    1M        6MM.3     R0207/3   6mm Resistors   
-R4    10k       6MM.3     R0207/3   6mm Resistors   
-R5    560K      6MM.3     R0207/3   6mm Resistors   
-R6    4k7       6MM.3     R0207/3   6mm Resistors   
-R7    180R      6MM.3     R0207/3   6mm Resistors   
-R8    150k      6MM.3     R0207/3   6mm Resistors   
-R9    1k2       6MM.3     R0207/3   6mm Resistors   
-R10   120k      6MM.3     R0207/3   6mm Resistors   
-R11   68k       6MM.3     R0207/3   6mm Resistors   
-R12   15k       6MM.3     R0207/3   6mm Resistors   
-R13   2M2       6MM.3     R0207/3   6mm Resistors   
-R14   15k       6MM.3     R0207/3   6mm Resistors   
-R15   1k        6MM.3     R0207/3   6mm Resistors   
-R16   4k7       6MM.3     R0207/3   6mm Resistors   
-SPEED C100K     POT16MM   16MM      Potentiometers  
-U$1   BOARDLINK BOARDLINK BOARDLINK                 
-VOL   A25K      POT16MM   16MM      Potentiometers  
+Exported from EATremolo.brd at 4/28/20 9:11 PM
+
+EAGLE Version 9.5.2 Copyright (c) 1988-2019 Autodesk, Inc.
+
+Assembly variant: 
+
+Part     Value          Package   Library         Position (mil)        Orientation
+
+C1       47nF           072X025   mb_caps-box     (722 515)             R90
+C2       10uF           050_020_1 mb_caps-electro (1419 679)            R90
+C3       0.22uF         072X035   mb_caps-box     (1530 955)            R90
+C4       0.47uF         072X035   mb_caps-box     (1696 956)            R270
+C5       22uF           050_020_1 mb_caps-electro (1725 1375)           R180
+C6       0.47uF         072X035   mb_caps-box     (729 1100)            R270
+C7       1uF            072X045   mb_caps-box     (548 1099)            R90
+C8       1uF            072X045   mb_caps-box     (150 1100)            R90
+C9       1uF            072X045   mb_caps-box     (351 1099)            R270
+D1       LED3MM         LED3MM    mb_diodes       (1040 1425)           R0
+DEPTH    B250K          16MM      mb_pots         (1150 925)            R270
+Q1       2N5457         TO92-     mb_trans        (812 809)             R90
+Q2       2N3904         TO92-     mb_trans        (1320 915)            R270
+Q3       2N5457         TO92-     mb_trans        (1574 1200)           R180
+Q4       2N5088         TO92-     mb_trans        (227 830)             R0
+R1       1M             R0207/3   mb_resistors    (596 520)             R270
+R2       1M             R0207/3   mb_resistors    (127 522)             R270
+R3       1M             R0207/3   mb_resistors    (240 520)             R90
+R4       10k            R0207/3   mb_resistors    (1600 525)            R90
+R5       560K           R0207/3   mb_resistors    (1720 525)            R270
+R6       4k7            R0207/3   mb_resistors    (1295 380)            R180
+R7       180R           R0207/3   mb_resistors    (1833 960)            R270
+R8       150k           R0207/3   mb_resistors    (1960 530)            R90
+R9       1k2            R0207/3   mb_resistors    (1958 960)            R90
+R10      120k           R0207/3   mb_resistors    (1400 1450)           R180
+R11      68k            R0207/3   mb_resistors    (1400 1330)           R180
+R12      15k            R0207/3   mb_resistors    (480 520)             R270
+R13      2M2            R0207/3   mb_resistors    (360 521)             R270
+R14      15k            R0207/3   mb_resistors    (607 1450)            R180
+R15      1k             R0207/3   mb_resistors    (607 1325)            R180
+R16      4k7            R0207/3   mb_resistors    (1840 530)            R90
+SPEED    C100K          16MM      mb_pots         (975 925)             R90
+U$1      BOARDLINK      BOARDLINK xc_library      (960 100)             R0
+U$2      MMBF5457       SOT23     xc_library      (590 826)             R0
+U$3      MMBF5457       SOT23     xc_library      (1320 1200)           R90
+VOL      A25K           16MM      mb_pots         (1060 515)            R180
